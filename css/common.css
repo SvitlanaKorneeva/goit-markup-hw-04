@@ -8,6 +8,7 @@
 /* цвет черный #000000*/
 /* вторичный цвет фона #F5F4FA */
 /* цвет фона футера #2F303A*/
+/* цвет иконок социальных сетей #AFB1B8*/
 
 :root {
   --primary-text-color: #212121;
@@ -17,6 +18,7 @@
   --primary-white-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --background-footer-colour: #2f303a;
+  --color-social-icons: #afb1b8;
 }
 body {
   background-color: var(--primary-white-color);
