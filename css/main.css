@@ -71,7 +71,7 @@
 
 .no-padding {
   padding-bottom: 0;
-  padding-top: 0;
+  padding-top: 94px;
 }
 
 .section-team {
@@ -130,6 +130,12 @@
   margin-bottom: 0;
 
   color: var(--primary-text-color);
+}
+.picture {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--secondary-background-color);
 }
 
 .features-text {
@@ -235,11 +241,12 @@
 .social-icon {
   fill: var(--color-social-icons);
 }
+
 .social-icons-link:hover,
 .social-icons-link:focus {
   cursor: pointer;
   background-color: var(--accent-colour);
-  fill: var(--accent-colour);
+  fill: var(--primary-white-color);
 }
 
 .social-icon:hover,
@@ -258,4 +265,32 @@
 
 .client-list .clients:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients {
+}
+
+.client-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.client-link:hover {
+  cursor: pointer;
+  border: 1px solid var(--accent-colour);
+  fill: var(--accent-colour);
+}
+
+.clients-icon {
+  fill: var(--color-social-icons);
+}
+
+.clients-icon:hover {
+  fill: var(--accent-colour);
 }

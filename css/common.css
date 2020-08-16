@@ -108,6 +108,18 @@ body {
   color: var(--accent-colour);
 }
 
+.contacts-icon-tel {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.contacts-icon-mail {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.item .link:hover {
+  fill: var(--accent-colour);
+}
 html {
   box-sizing: border-box;
 }
@@ -125,6 +137,11 @@ html {
 .footer {
   background-color: var(--background-footer-colour);
 }
+
+.section-footer {
+  padding: 0;
+}
+
 .container-footer {
   display: flex;
 }
@@ -181,4 +198,23 @@ html {
 
 .assign-container {
   margin-top: 72px;
+}
+
+.footer-icons-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-icon {
+  fill: var(--primary-white-color);
+}
+.footer-icons-link:hover,
+.footer-icons-link:focus {
+  cursor: pointer;
+  background-color: var(--accent-colour);
 }
