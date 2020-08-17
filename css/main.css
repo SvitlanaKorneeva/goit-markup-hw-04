@@ -230,7 +230,6 @@
   align-items: center;
   width: 44px;
   height: 44px;
-  background: var(--primary-white-color);
   border-radius: 50%;
 }
 
@@ -246,7 +245,7 @@
 .social-icons-link:focus {
   cursor: pointer;
   background-color: var(--accent-colour);
-  fill: var(--primary-white-color);
+  /*fill: var(--primary-white-color);*/
 }
 
 .social-icon:hover,
