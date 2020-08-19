@@ -111,13 +111,12 @@ body {
 .contacts-icon-tel {
   vertical-align: middle;
   margin-right: 10px;
-
 }
 
 .contacts-icon-mail {
   vertical-align: middle;
   margin-right: 10px;
-
+}
 
 .item .link:hover {
   fill: var(--accent-colour);
