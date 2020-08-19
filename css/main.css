@@ -241,18 +241,18 @@
   fill: var(--color-social-icons);
 }
 
-.social-icons-link:hover,
-.social-icons-link:focus {
+.icon .social-icons-link:hover,
+.icon .social-icons-link:focus {
   cursor: pointer;
   background-color: var(--accent-colour);
-  /*fill: var(--primary-white-color);*/
+  fill: var(--primary-white-color);
 }
 
-.social-icon:hover,
+/*.social-icon:hover,
 .social-icon:focus {
   cursor: pointer;
   fill: var(--primary-white-color);
-}
+}*/
 
 /* Clients*/
 .client-list {
