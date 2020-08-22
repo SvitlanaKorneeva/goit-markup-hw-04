@@ -231,18 +231,16 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
+  fill: var(--color-social-icons);
 }
 
 .icon:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-icon {
-  fill: var(--color-social-icons);
-}
-
-.icon .social-icons-link:hover,
-.icon .social-icons-link:focus {
+.social-icons-link:hover,
+.social-icons-link:focus {
   cursor: pointer;
   background-color: var(--accent-colour);
   fill: var(--primary-white-color);
@@ -266,9 +264,6 @@
   margin-right: 30px;
 }
 
-.clients {
-}
-
 .client-link {
   display: inline-flex;
   justify-content: center;
@@ -278,18 +273,13 @@
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
 
-.client-link:hover {
-  cursor: pointer;
-  border: 1px solid var(--accent-colour);
-  fill: var(--accent-colour);
-}
-
-.clients-icon {
   fill: var(--color-social-icons);
 }
 
-.clients-icon:hover {
+.client-link:hover,
+.client-link:focus {
+  cursor: pointer;
+  border: 1px solid var(--accent-colour);
   fill: var(--accent-colour);
 }
